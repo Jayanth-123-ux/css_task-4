@@ -1,0 +1,124 @@
+*{
+ scroll-behavior: smooth;
+}
+header{
+    background-image: url(./neom-eOWabmCNEdg-unsplash.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+.divt{
+    margin-top: 10px;
+    flex: 2;
+    margin-left: 100px;
+    color: blue;
+    font-size: 30px;
+}
+.ul01{
+    flex: 1;
+    display:flex;
+    justify-content:space-evenly ;
+    margin-right: 100px;
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+}
+.ul01 a{
+    text-decoration: none;
+    color: blue;
+}
+.div01{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 250px;
+    margin-left: 40px;
+}
+.loremd{
+    color: white;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.texplore{
+    background-color: rgba(255,255, 255,0.8);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px; 
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.texplore a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    
+}
+.sec01 h1{
+    text-align: center;
+}
+.ul02{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul02 .li{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid blue;
+    width: 300px;
+}
+.foot{
+    background-color: blueviolet;
+    width: 100%;
+    height: 450px;
+}
+.ul03{
+    list-style-type: none;
+}
+.div02{
+    width: 70%;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 30px;
+}
+li{
+    color: white;
+    font-weight: 500;
+}
+#contact{
+    height: 210px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.div05{
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.7;
+}
+p{
+    margin-left:600px ;
+}
+.flipkart{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 3px 5px black;
+}
